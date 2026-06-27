@@ -39,6 +39,7 @@ data, how to monitor the web server's QPS, and the issues of this infrastructure
 
 | Issue | Why |
 |-------|-----|
+| SPOF | The load balancer is a single point; the Primary DB is the single writer |
 | SSL terminated at the load balancer | Past the LB the traffic is cleartext inside the network — no longer end-to-end encrypted |
 | One writable MySQL | The Primary is a write SPOF and a write bottleneck; reads scale, writes don't |
 | Identical servers (web+app+DB each) | Components contend for resources and can't be scaled independently |
