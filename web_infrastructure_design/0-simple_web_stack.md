@@ -16,7 +16,7 @@ the issues of this infrastructure.
 
 ## Diagram
 
-![Simple web stack](diagrams/0-simple_web_stack.png)
+![Simple web stack](0-simple_web_stack.png)
 
 ## Explanations
 

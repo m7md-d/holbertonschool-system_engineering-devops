@@ -17,7 +17,7 @@ data, how to monitor the web server's QPS, and the issues of this infrastructure
 
 ## Diagram
 
-![Secured and monitored web infrastructure](diagrams/2-secured_and_monitored_web_infrastructure.png)
+![Secured and monitored web infrastructure](2-secured_and_monitored_web_infrastructure.png)
 
 ## Explanations
 

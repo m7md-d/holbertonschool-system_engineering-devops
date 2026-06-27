@@ -16,7 +16,7 @@ Primary-Replica database cluster works; and the issues of this infrastructure.
 
 ## Diagram
 
-![Distributed web infrastructure](diagrams/1-distributed_web_infrastructure.png)
+![Distributed web infrastructure](1-distributed_web_infrastructure.png)
 
 ## Explanations
 

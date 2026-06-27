@@ -15,7 +15,7 @@ You must be able to explain, for every added element, why it's there.
 
 ## Diagram
 
-![Scale up](diagrams/3-scale_up.png)
+![Scale up](3-scale_up.png)
 
 ## Explanations
 
