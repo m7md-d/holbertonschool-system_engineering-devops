@@ -29,6 +29,7 @@ the issues of this infrastructure.
 | Role of the application server | Runs the codebase to generate dynamic pages |
 | Role of the database | Stores persistent data; the app queries it over SQL |
 | Server ↔ user communication | HTTP/HTTPS over TCP/IP |
+| Where a server is located | Generally inside a data center, running an OS on physical or virtual hardware |
 
 ## Issues
 
