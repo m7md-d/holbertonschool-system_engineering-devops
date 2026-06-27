@@ -43,6 +43,7 @@ data, how to monitor the web server's QPS, and the issues of this infrastructure
 | SSL terminated at the load balancer | Past the LB the traffic is cleartext inside the network — no longer end-to-end encrypted |
 | One writable MySQL | The Primary is a write SPOF and a write bottleneck; reads scale, writes don't |
 | Identical servers (web+app+DB each) | Components contend for resources and can't be scaled independently |
+| Downtime during maintenance | Having all components on the same machine means maintenance or restarts on one will affect the others. |
 
 ## Answer file
 
